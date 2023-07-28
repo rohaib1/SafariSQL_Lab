@@ -31,7 +31,7 @@ CREATE TABLE assignments (
     day VARCHAR 
 );
 
-INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('Lions lair', 20, false);
+INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('Lions lair', 20, true);
 INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('Pond', 20, false);
 INSERT INTO enclosures (name, capacity, closedForMaintenance) VALUES ('Bird hideout', 20, false);
 
